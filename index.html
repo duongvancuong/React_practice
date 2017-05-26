@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>React Demo</title>
+  <link rel='stylesheet' href='dist/style.css'>
+  <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.css">
+  <link href="dist/css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+  <link href="dist/css/style.css" rel="stylesheet" type="text/css" media="all"/>
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" > -->
+</head>
+<body>
+  <div id="root"></div>
+
+<!--   <script>
+    var toggle = true;
+
+    $(".sidebar-icon").click(function() {
+      if (toggle)
+      {
+        $(".page-container").addClass("sidebar-collapsed").removeClass("sidebar-collapsed-back");
+        $("#menu span").css({"position":"absolute"});
+      }
+      else
+      {
+        $(".page-container").removeClass("sidebar-collapsed").addClass("sidebar-collapsed-back");
+        setTimeout(function() {
+          $("#menu span").css({"position":"relative"});
+        }, 400);
+      }
+      toggle = !toggle;
+    });
+  </script>
+  <script>
+    $(document).ready(function() {
+       var navoffeset=$(".header-main").offset().top;
+       $(window).scroll(function(){
+        var scrollpos=$(window).scrollTop();
+        if(scrollpos >=navoffeset){
+          $(".header-main").addClass("fixed");
+        }else{
+          $(".header-main").removeClass("fixed");
+        }
+       });
+
+    });
+  </script> -->
+  <script type="text/javascript" src="dist/bundle.js"></script>
+  <script type="text/javascript" src="node_modules/moment/moment.js"></script>
+  <script src="dist/js/jquery-2.1.1.min.js"></script>
+  <script src="dist/js/skycons.js"></script>
+  <script src="dist/js/jquery.nicescroll.js"></script>
+  <script src="dist/js/scripts.js"></script>
+  <script src="dist/js/bootstrap.js"> </script>
+</body>
+</html>

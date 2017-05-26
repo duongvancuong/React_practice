@@ -1,0 +1,48 @@
+{
+  "name": "my-awrsome-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.conf.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "font-awesome": "^4.7.0",
+    "history": "^4.6.1",
+    "moment": "^2.18.1",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-frame-component": "^1.0.3",
+    "react-redux": "^5.0.5",
+    "react-router": "^4.1.1",
+    "react-router-dom": "^4.1.1",
+    "react-router-redux": "^4.0.8",
+    "react-scripts": "0.9.5",
+    "redux": "^3.6.0",
+    "redux-saga": "^0.15.3",
+    "webpack": "^2.6.1",
+    "whatwg-fetch": "^2.0.3"
+  },
+  "devDependencies": {
+    "babel-loader": "*",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-runtime": "*",
+    "css-loader": "^0.28.3",
+    "extract-text-webpack-plugin": "^2.1.0",
+    "file-loader": "*",
+    "jsx-loader": "^0.13.2",
+    "node-sass": "^4.5.3",
+    "raw-loader": "*",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "sass-loader": "^6.0.5",
+    "style-loader": "^0.18.1",
+    "url-loader": "*",
+    "webpack": "^2.6.1",
+    "webpack-dev-server": "*"
+  }
+}
